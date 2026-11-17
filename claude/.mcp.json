@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ProRemoter": {
+      "type": "http",
+      "url": "https://proremoter.com/mcp"
+    }
+  }
+}
