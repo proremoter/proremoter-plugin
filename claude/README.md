@@ -6,7 +6,7 @@ Privacy and terms: <https://proremoter.com/terms>. Website: <https://proremoter.
 
 ## Install
 
-- Claude Code: `/plugin marketplace add proremoter/proremoter-plugin`, then `/plugin install proremoter@proremoter-plugin`.
+- Claude Code: `/plugin marketplace add https://github.com/proremoter/proremoter-plugin.git`, then `/plugin install ProRemoter@proremoter-plugin`.
 - Claude desktop (sideload): upload `proremoter-claude-plugin.zip` from the repository releases, or zip the contents of this folder so that `.claude-plugin/plugin.json` is at the top level of the archive.
 
 This folder is self-contained. The GitHub Copilot / VS Code plugin lives in the repository root and shares nothing with it except the content of the skills, which are kept identical.
