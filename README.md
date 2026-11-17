@@ -16,9 +16,9 @@ At the repository root, `.github/plugin/marketplace.json` lists the Copilot plug
 
 ## Install
 
-- **VS Code:** add `proremoter/proremoter-plugin` as a plugin marketplace (setting `chat.plugins.marketplaces`, or `vscode://chat-plugin/add-marketplace?ref=proremoter%2Fproremoter-plugin`), then install `ProRemoter`.
-- **GitHub Copilot CLI:** `copilot plugin install proremoter/proremoter-plugin:github-copilot`
-- **Claude Code:** `/plugin marketplace add proremoter/proremoter-plugin`, then `/plugin install proremoter@proremoter-plugin`
+- **VS Code:** add `https://github.com/proremoter/proremoter-plugin.git` as a plugin marketplace (setting `chat.plugins.marketplaces`, or `vscode://chat-plugin/add-marketplace?ref=https%3A%2F%2Fgithub.com%2Fproremoter%2Fproremoter-plugin.git`), then install `ProRemoter`.
+- **GitHub Copilot CLI:** `copilot plugin marketplace add https://github.com/proremoter/proremoter-plugin.git`, then `copilot plugin install ProRemoter@proremoter-plugin`
+- **Claude Code:** `/plugin marketplace add https://github.com/proremoter/proremoter-plugin.git`, then `/plugin install ProRemoter@proremoter-plugin`
 - **Claude desktop:** zip the contents of `claude/` (so `.claude-plugin/plugin.json` is at the top of the archive) and upload it under Customize, Plugins.
 - **Goose:** see [goose/README.md](goose/README.md).
 
