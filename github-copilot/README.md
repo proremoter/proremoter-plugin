@@ -6,7 +6,7 @@ Privacy and terms: <https://proremoter.com/terms>. Website: <https://proremoter.
 
 ## Install
 
-- VS Code: add the marketplace `proremoter/proremoter-plugin` (setting `chat.plugins.marketplaces`, or the deep link `vscode://chat-plugin/add-marketplace?ref=proremoter%2Fproremoter-plugin`), then install `ProRemoter` from Agent Customizations, Plugins.
-- GitHub Copilot CLI: `copilot plugin install proremoter/proremoter-plugin:github-copilot`, or `copilot plugin marketplace add proremoter/proremoter-plugin` followed by `copilot plugin install ProRemoter@proremoter-plugin`.
+- VS Code: add the marketplace `https://github.com/proremoter/proremoter-plugin.git` (setting `chat.plugins.marketplaces`, or the deep link `vscode://chat-plugin/add-marketplace?ref=https%3A%2F%2Fgithub.com%2Fproremoter%2Fproremoter-plugin.git`), then install `ProRemoter` from Agent Customizations, Plugins.
+- GitHub Copilot CLI: `copilot plugin marketplace add https://github.com/proremoter/proremoter-plugin.git` followed by `copilot plugin install ProRemoter@proremoter-plugin`.
 
 This folder is self-contained. The Claude plugin lives in `../claude`.
