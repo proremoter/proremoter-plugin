@@ -2,7 +2,7 @@
   "name": "proremoter-plugin",
   "description": "ProRemoter: understand and review code as plain-language flowcharts.",
   "owner": {
-    "name": "proremoter",
+    "name": "ProRemoter",
     "url": "https://proremoter.com"
   },
   "plugins": [
