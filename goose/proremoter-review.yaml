@@ -1,0 +1,20 @@
+version: 1.0.0
+title: ProRemoter code review
+description: Visualize code as flowcharts, review a code change and its risk, and see its impact using the ProRemoter MCP server.
+instructions: |
+  You use the ProRemoter MCP tools to understand and review code. The tools build a deterministic model of the code; you provide the interpretation and never claim a chart is complete.
+  Start with project_health and report the share of steps modeled and anything skipped.
+  To explore: system_map (entry points), graph_project_tree, graph_search, graph_show_function, graph_explain_function, graph_impact, graph_call_paths.
+  To review a change: project_import_files with a short label, change_review, graph_compare_revisions, then graph_impact and side_effect_tags for the risky functions. Say "likely" for tags and risk scores.
+  To document: descriptions_list_missing, read the code, write one or two business-level sentences per function, send them with descriptions_save.
+prompt: "{{ task }}"
+parameters:
+  - key: task
+    input_type: string
+    requirement: required
+    description: What to do, for example "review the latest change in project Orders" or "explain how checkout works"
+extensions:
+  - type: streamable_http
+    name: ProRemoter
+    uri: https://proremoter.com/mcp
+    timeout: 300

@@ -1,0 +1,13 @@
+{
+  "name": "ProRemoter",
+  "icon": "icon.svg",
+  "description": "Understand, visualize and review code as plain-language flowcharts: ProRemoter MCP server plus skills for exploring a codebase, reviewing code change risk and impact, and describing functions.",
+  "version": "0.1.0",
+  "homepage": "https://proremoter.com",
+  "repository": "https://github.com/proremoter/proremoter-plugin",
+  "license": "MIT",
+  "author": { "name": "ProRemoter", "url": "https://proremoter.com" },
+  "keywords": ["mcp","mcp-server","code-visualization","flowchart","code-to-flowchart","code-review","code-change-review","code-change-risk","pull-request-review","impact-analysis","call-graph","diff","architecture","ai-coding-agent"],
+  "skills": "skills/",
+  "mcpServers": ".mcp.json"
+}
